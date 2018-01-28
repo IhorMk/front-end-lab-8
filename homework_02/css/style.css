@@ -59,8 +59,6 @@ write your code here
 
 @media screen {
 	/*--------2---------*/
-
-	
 	/*--------3---------*/
 	p:first-letter {
 		color: #76cdd7;
@@ -83,8 +81,7 @@ write your code here
 		border-width: 2px;
 	}
 	/*--------6---------*/
-	#ideas h2.tm-section-title/*#tmCarousel > div > div.carousel-item.active > div > div > h2*/
-	{
+	#ideas h2.tm-section-title {
 		color: gainsboro;
 		letter-spacing: 5px;
 	}
@@ -98,7 +95,25 @@ write your code here
 		line-height: 30px;
 	}
 	/*--------9---------*/
-
+	.heading h2 {
+		text-align: center;
+		color: #76cdd7;
+	}
+	.heading ol li a {
+		color: #000;
+	}
+	.heading ol li a:visited {
+		color: #c0c0c0;
+	}
+	.heading ol li a:hover {
+		color: #79c5ce;
+	}
+	.heading ol li:nth-child(-2n+3)::after {
+		content: "New";
+		color: #ff0000;
+		vertical-align: super;
+		font-size: x-small;
+	}
 	/*--------10--------*/
 	.blocks .gallery-container p::first-letter {
 		color: #000;
