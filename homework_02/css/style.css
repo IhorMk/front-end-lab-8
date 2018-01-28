@@ -12,3 +12,92 @@ a:focus{color:#666;outline:0}ul{padding:0;margin:0}body{background-color:#f2f2f2
 write your code here
 
 */
+@media print {
+	.tm-sidebar,
+	.heading,
+	.blocks,
+	#about,
+	#ideas,
+	.tm-content-box>img,
+	#contact {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+		/*display: none;*/
+	}
+	.tm-banner {
+		height: 200px;
+		width: 100%
+	}
+	.tm-main-content {
+		margin-left: 0px;
+		text-align: center;
+		padding-left: 0px;
+	}
+	.tm-main-content h2 {
+		color: #0074d9;
+	}
+	div.pad.flex-item.tm-team-description-container {
+		padding-left: 50px;
+		padding-top: 10px;
+	}
+	.tm-content-box {
+		display: block;
+		margin-bottom: 0;
+	}
+	.tm-team-description-container {
+		padding-top: 0px;
+		padding-left: 50px;
+		padding-bottom: 0px;
+		max-width: 100%;
+		text-align: left;
+	}
+	.tm-footer {
+		padding: 15px;
+	}
+}
+
+@media screen {
+	/*--------2----------*/
+	/*--------3---------*/
+	p:first-letter {
+		color: #76cdd7;
+		font-size: 30px;
+		line-height: 25px;
+	}
+	/*--------4---------*/
+	.tm-content-box,
+	.tm-sidebar,
+	.blocks>.tm-team-description-container {
+		box-shadow: 0px 0px 10px #5c5b5b;
+	}
+	.blocks>.tm-team-description-container {
+		max-width: 100%;
+	}
+	/*--------5---------*/
+	.gallery-container a>img {
+		border-style: solid;
+		border-color: silver;
+		border-width: 2px;
+	}
+	/*--------6---------*/
+	#ideas h2.tm-section-title/*#tmCarousel > div > div.carousel-item.active > div > div > h2*/
+	{
+		color: gainsboro;
+		letter-spacing: 5px;
+	}
+	/*--------7---------*/
+	h2+p {
+		font-style: italic;
+	}
+	/*--------8---------*/
+	div.flex-2-col:nth-child(1)>div:nth-child(1)>p {
+		text-indent: 20px;
+		line-height: 30px;
+	}
+	/*--------9---------*/
+	/*--------10--------*/
+	/*--------11--------*/
+	/*--------12--------*/
+	/*--------13--------*/
+}
