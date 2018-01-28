@@ -58,7 +58,9 @@ write your code here
 }
 
 @media screen {
-	/*--------2----------*/
+	/*--------2---------*/
+
+	
 	/*--------3---------*/
 	p:first-letter {
 		color: #76cdd7;
@@ -96,6 +98,7 @@ write your code here
 		line-height: 30px;
 	}
 	/*--------9---------*/
+
 	/*--------10--------*/
 	.blocks .gallery-container p::first-letter {
 		color: #000;
