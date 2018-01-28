@@ -59,6 +59,11 @@ write your code here
 
 @media screen {
 	/*--------2---------*/
+	#about .box {
+		border: none !important;
+		outline: 1px solid silver;
+		position: relative;
+	}
 	/*--------3---------*/
 	p:first-letter {
 		color: #76cdd7;
@@ -70,9 +75,6 @@ write your code here
 	.tm-sidebar,
 	.blocks>.tm-team-description-container {
 		box-shadow: 0px 0px 10px #5c5b5b;
-	}
-	.blocks>.tm-team-description-container {
-		max-width: 100%;
 	}
 	/*--------5---------*/
 	.gallery-container a>img {
