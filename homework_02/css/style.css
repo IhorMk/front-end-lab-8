@@ -97,7 +97,20 @@ write your code here
 	}
 	/*--------9---------*/
 	/*--------10--------*/
+	.blocks .gallery-container p::first-letter {
+		color: #000;
+	}
+	.blocks .gallery-container .box-bg {
+		background: #f2f2f2;
+	}
 	/*--------11--------*/
+	.tm-sidebar .tm-main-nav li:not(:last-child) {
+		border-bottom: silver solid 1px;
+	}
 	/*--------12--------*/
+	input[type="text"],
+	button[type="submit"] {
+		color: red;
+	}
 	/*--------13--------*/
 }
