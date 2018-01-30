@@ -1,0 +1,77 @@
+
+@mixin imgMy{
+    color: $headColor;
+    display: block;
+    border:  solid $headColor 2px;
+    padding: 2px; 
+}
+@mixin bodyS{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: $bodyColor;
+}
+@mixin cont{
+    width: 70%;
+    margin: 0 auto;
+    background-color:$contColor;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+    @include bodyS(); 
+#content{
+    @include cont();
+    h1 {
+        color: $headColor;
+        text-align: center;
+        padding: 15px;
+        }
+    h2{
+        color: $headColor;
+    }
+    .img-left{       
+        float: $forFloatL;
+        margin: 0px 15px 4px 0px;
+        @include imgMy();
+    }
+    .img-right{
+        float: $forFloatR;
+        margin: 0px 10px 5px 15px;
+        @include imgMy();            
+    }
+    p{
+        font-size: 16px;
+        color: $textColor;
+    }
+    .brief {
+        float: $forFloatL;
+        background-color: $brieColor;
+        margin: 0px 15px 5px 0px;
+        padding: 15px;
+        width: 40%;        
+    }
+    caption {
+            text-align: right;
+            color: $textColor;
+        }
+    th{
+            text-transform: uppercase;
+            background-color: $tColor;
+            padding: 10px 10px 10px 20px;
+            text-align: $forFloatL;
+            font-weight: normal;
+            }
+    td {
+             padding: 10px 10px 10px 20px;
+             border-bottom: $tColor 1px solid;
+
+            }
+    .nameL {
+     .formRating .formRespons{
+         width: 100%;
+         
+     }   
+    }
+    }
+}
