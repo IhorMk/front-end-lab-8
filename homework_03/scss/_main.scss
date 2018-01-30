@@ -67,11 +67,25 @@ body{
              border-bottom: $tColor 1px solid;
 
             }
-    .nameL {
-     .formRating .formRespons{
-         width: 100%;
-         
-     }   
+            form {
+                margin-top: -15px;
+        
+                input {
+                    display: inline-block;
+                    margin-bottom: 15px;
+                    padding: 5px 5px 5px 5px;
+                    width: 100%;
+                    border: 1px solid $tColor;
+                }
+                .nameF {
+                    float: left;
+                    width: 49%;
+                }
+        
+                .nameL {
+                    float: right;
+                    width: 48%;
+                }
     }
     }
 }
