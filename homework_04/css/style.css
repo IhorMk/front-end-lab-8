@@ -2,7 +2,8 @@
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
-  font-family: 'Open Sans'; }
+  font-family: 'Open Sans';
+  background-color: #a19999; }
   .conteiner header {
     background-image: url(../img/apples.jpg);
     background-size: cover;
@@ -63,20 +64,21 @@
         margin: 20px 50px 70px 50px;
         padding: 15px 70px 15px 70px;
         border: 2px solid #E8E8E8; }
-  .conteiner .text {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 120px;
-    background-color: #fff;
-    margin: 6%; }
-    .conteiner .text .text1 {
-      font-size: 20px; }
-    .conteiner .text .text2 {
-      font-size: 14px; }
-  .conteiner .s3 {
-    background-color: darkgrey; }
+  .conteiner .s1 {
+    width: 100%; }
+    .conteiner .s1 .text {
+      background-color: #fff;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 120px;
+      margin: 6%; }
+      .conteiner .s1 .text .text1 {
+        font-size: 20px; }
+      .conteiner .s1 .text .text2 {
+        font-size: 14px; }
   .conteiner .fotohead {
-    margin: 7%; }
+    margin: 7%;
+    text-align: center; }
   .conteiner .fotoblok {
     margin: 50px 50px 50px 50px;
     display: block;
@@ -128,7 +130,7 @@
   .conteiner .subscrb {
     padding: 5% 5% 5% 5%;
     margin: 7%;
-    background-color: gray;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +142,7 @@
       display: block;
       font-size: 0; }
       .conteiner .subscrb .buttonSub input {
+        background-color: #F0F0F0;
         text-align: left;
         font-size: 16px;
         padding: 20px 150px 20px 150px;
@@ -152,47 +155,49 @@
         background-color: #343638;
         color: #F0F0F0;
         border: 1px solid #343638; }
-  .conteiner footer .footgr {
-    padding: 20px 100px 20px 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 20%;
-    grid-template-rows: 1fr;
-    grid-column-gap: 9em;
-    text-align: justify; }
-  .conteiner footer p {
-    color: #A4A4A4;
-    font-size: 14px; }
-  .conteiner footer .cont {
-    line-height: 170%; }
-  .conteiner footer .news .subscrfoot {
-    display: block;
-    font-size: 0; }
-    .conteiner footer .news .subscrfoot input {
-      background-color: #F0F0F0;
-      font-size: 12px;
-      padding: 10px 10px 10px 10px;
-      border: 1px solid #343638; }
-    .conteiner footer .news .subscrfoot input::-webkit-input-placeholder {
-      font-style: italic; }
-    .conteiner footer .news .subscrfoot button {
-      font-size: 12px;
-      padding: 10px 10px 10px 10px;
-      background-color: #343638;
-      color: #F0F0F0;
-      border: 1px solid #343638; }
-  .conteiner footer hr {
-    margin: 0 7% 0 7%; }
-  .conteiner footer .underfoot {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-items: baseline;
-    margin: 0 7% 0 7%; }
-    .conteiner footer .underfoot nav {
-      color: #000; }
-      .conteiner footer .underfoot nav a {
-        padding: 15px 15px 0 15px;
-        text-decoration-line: none;
-        font-size: 14px; }
+  .conteiner footer {
+    background-color: #fff; }
+    .conteiner footer .footgr {
+      padding: 20px 100px 20px 100px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 20%;
+      grid-template-rows: 1fr;
+      grid-column-gap: 9em;
+      text-align: justify; }
+    .conteiner footer p {
+      color: #A4A4A4;
+      font-size: 14px; }
+    .conteiner footer .cont {
+      line-height: 170%; }
+    .conteiner footer .news .subscrfoot {
+      display: block;
+      font-size: 0; }
+      .conteiner footer .news .subscrfoot input {
+        background-color: #F0F0F0;
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid #343638; }
+      .conteiner footer .news .subscrfoot input::-webkit-input-placeholder {
+        font-style: italic; }
+      .conteiner footer .news .subscrfoot button {
+        font-size: 12px;
+        padding: 10px 10px 10px 10px;
+        background-color: #343638;
+        color: #F0F0F0;
+        border: 1px solid #343638; }
+    .conteiner footer hr {
+      margin: 0 7% 0 7%; }
+    .conteiner footer .underfoot {
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 0 7% 0 7%; }
+      .conteiner footer .underfoot nav {
+        color: #000; }
+        .conteiner footer .underfoot nav a {
+          padding: 15px 15px 0 15px;
+          text-decoration-line: none;
+          font-size: 14px; }
 
-/*# sourceMappingURL=style.css.map commit 9-46 */
+/*# sourceMappingURL=style.css.map */
