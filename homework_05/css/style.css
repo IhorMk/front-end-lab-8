@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     background-image: url(../img/banner.jpg);
-    *background-position: top center;
+    background-position: top center;
     background-size: cover; }
     body .banner p {
       margin-left: 14%;
