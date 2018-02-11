@@ -1,0 +1,25 @@
+let a=parseFloat(prompt("enter side A:"));
+let b=parseFloat(prompt("enter side B:"));
+let c=parseFloat(prompt("enter side C:"));
+const sTr=()=>{
+  let p=((a+b+c)/2);
+  let s=0;
+  s=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+  return s.toFixed(2);
+}
+const typeT=()=>{
+if ((c*c==a*a+b*b)||(a*a==c*c+b*b)||(b*b==a*a+c*c)){
+  return "right triangle";
+}else if((a===b)&&(b===c)&&(c===a)){
+  return "equilateral triangle";
+}else if((a===b)||(b===c)||(c===a)){
+  return "isosceles triangle";
+} else {
+  return "scalene triangle";
+}
+}
+if((a>=b+c)||(b>=a+c)||(c>=a+b)){
+console.log ("Incorrect data");
+}else{
+console.log ("Type of triangle is "+ typeT()+ " and square is "+ sTr());
+}
