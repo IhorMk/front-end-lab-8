@@ -7,6 +7,7 @@ const sTr=()=>{
   s=Math.sqrt(p*(p-a)*(p-b)*(p-c));
   if (s%1 !== 0) {
     s = s.toFixed(2);
+  }
   return s;
 }
 const typeT=()=>{
