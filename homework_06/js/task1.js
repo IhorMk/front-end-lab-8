@@ -5,7 +5,9 @@ const sTr=()=>{
   let p=((a+b+c)/2);
   let s=0;
   s=Math.sqrt(p*(p-a)*(p-b)*(p-c));
-  return s.toFixed(2);
+  if (s%1 !== 0) {
+    s = s.toFixed(2);
+  return s;
 }
 const typeT=()=>{
 if ((c*c==a*a+b*b)||(a*a==c*c+b*b)||(b*b==a*a+c*c)){
