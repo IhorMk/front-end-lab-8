@@ -21,7 +21,7 @@ if ((c*c==a*a+b*b)||(a*a==c*c+b*b)||(b*b==a*a+c*c)){
   return "scalene triangle";
 }
 }
-if((a>=b+c)||(b>=a+c)||(c>=a+b)){
+if((a>=b+c)||(b>=a+c)||(c>=a+b)||isNaN(c)||isNaN(a)||isNaN(b)){
 console.log ("Incorrect data");
 }else{
 console.log ("Type of triangle is "+ typeT()+ " and square is "+ sTr());
