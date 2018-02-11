@@ -1,6 +1,6 @@
-let a=parseFloat(prompt("enter side A:"));
-let b=parseFloat(prompt("enter side B:"));
-let c=parseFloat(prompt("enter side C:"));
+let a=parseFloat(prompt("enter the length of the side a:"));
+let b=parseFloat(prompt("enter the length of the side b:"));
+let c=parseFloat(prompt("enter the length of the side c:"));
 const sTr=()=>{
   let p=((a+b+c)/2);
   let s=0;
